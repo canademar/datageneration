@@ -1,0 +1,17 @@
+{
+    "eventFrequency": 500,
+    "varyEventFrequency": true,
+    "repeatWorkflow": true,
+    "timeBetweenRepeat": 250,
+    "varyRepeatFrequency": true,
+    "steps": [{
+            "config": [{
+                    "timestamp": "nowTimestamp()",
+                    "user": "integer(1,671)",
+                    "item": "integer(1,100)",
+                    "rating": "random(0.0,0.5,1.0,1.5,2.0,2.5,3.0,3.5,4.0,4.5,5.0)"
+                }],
+            "duration": 0
+        }]
+}
+

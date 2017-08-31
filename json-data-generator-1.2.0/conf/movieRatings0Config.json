@@ -1,0 +1,14 @@
+{
+    "workflows": [{
+            "workflowName": "ratings",
+            "workflowFilename": "movieRatings0Workflow.json"
+        }],
+    "producers": [{
+ 	    "type": "kafka",
+	    "broker.server": "localhost",
+	    "broker.port": 9092,
+	    "topic": "ratings",
+	    "flatten": false,
+	    "sync": false
+	}]
+}

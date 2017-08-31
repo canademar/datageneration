@@ -1,0 +1,14 @@
+{
+    "workflows": [{
+            "workflowName": "txns",
+            "workflowFilename": "bd4bfWorklflow.json"
+        }],
+    "producers": [{
+ 	    "type": "kafka",
+	    "broker.server": "localhost",
+	    "broker.port": 9092,
+	    "topic": "txns",
+	    "flatten": false,
+	    "sync": false
+	}]
+}

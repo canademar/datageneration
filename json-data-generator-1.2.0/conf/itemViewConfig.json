@@ -1,0 +1,14 @@
+{
+    "workflows": [{
+            "workflowName": "itemViews",
+            "workflowFilename": "itemViewWorkflow.json"
+        }],
+    "producers": [{
+ 	    "type": "kafka",
+	    "broker.server": "localhost",
+	    "broker.port": 9092,
+	    "topic": "itemViews",
+	    "flatten": false,
+	    "sync": false
+	}]
+}

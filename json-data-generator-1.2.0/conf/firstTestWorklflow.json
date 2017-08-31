@@ -1,0 +1,148 @@
+{
+    "eventFrequency": 1000,
+    "varyEventFrequency": false,
+    "repeatWorkflow": true,
+    "timeBetweenRepeat": 1000,
+    "varyRepeatFrequency": false,
+    "stepRunMode": "sequential",
+    "steps": [{
+            "config": [{
+                    "ccnumber"  :   "10",
+                    "amount"    :   558861.53765717,
+                    "txnid"     :   "957B34B6-80FB-141E-A60B-BE43C3CACE95",
+                    "date"      :   "nowTimestamp()",
+                    "ecommerce" :   "0",
+                    "foreign"   :   "1",
+                    "fraud"     :   "1",
+                    "merchant"  :   "0742",
+                    "country"   :   "FR"
+                }],
+            "duration": 0
+        },
+        {
+            "config": [{
+                    "ccnumber"  :   "18",
+                    "amount"    :   422478.77748237,
+                    "txnid"     :   "F8021B51-5961-4074-C05D-73D6ADAF50EB",
+                    "date"      :   "nowTimestamp()",
+                    "ecommerce" :   "0",
+                    "foreign"   :   "1",
+                    "fraud"     :   "1",
+                    "merchant"  :   "0763",
+                    "country"   :   "ES"
+                }],
+            "duration": 0
+        },
+        {
+            "config": [{
+                    "ccnumber"  :   "17",
+                    "amount"    :   258861.71534141,
+                    "txnid"     :   "2C39641C-1875-1E05-C739-CFF1E69C083E",
+                    "date"      :   "nowTimestamp()",
+                    "ecommerce" :   "0",
+                    "foreign"   :   "1",
+                    "fraud"     :   "1",
+                    "merchant"  :   "0780",
+                    "country"   :   "ES"
+                }],
+            "duration": 0
+        },
+        {
+            "config": [{
+                    "ccnumber"  :   "15",
+                    "amount"    :   318761.83672911,
+                    "txnid"     :   "2F562FE8-28B3-91EE-7BF1-AC9D9AC8DBBE",
+                    "date"      :   "nowTimestamp()",
+                    "ecommerce" :   "0",
+                    "foreign"   :   "1",
+                    "fraud"     :   "1",
+                    "merchant"  :   "0780",
+                    "country"   :   "GR"
+                }],
+            "duration": 0
+        },
+        {
+            "config": [{
+                    "ccnumber"  :   "19",
+                    "amount"    :   131121.82542626,
+                    "txnid"     :   "10F981F4-68C6-BFE6-EB32-4FE43063B5E2",
+                    "date"      :   "nowTimestamp()",
+                    "ecommerce" :   "1",
+                    "foreign"   :   "1",
+                    "fraud"     :   "1",
+                    "merchant"  :   "1520",
+                    "country"   :   "LH"
+                }],
+            "duration": 0
+        },
+        {
+            "config": [{
+                    "ccnumber"  :   "11",
+                    "amount"    :   1884.4535816097,
+                    "txnid"     :   "0722913A-3880-110A-CDD9-42C62AB73CE7",
+                    "date"      :   "nowTimestamp()",
+                    "ecommerce" :   "1",
+                    "foreign"   :   "0",
+                    "fraud"     :   "0",
+                    "merchant"  :   "1520",
+                    "country"   :   "US"
+                }],
+            "duration": 0
+        },
+        {
+            "config": [{
+                    "ccnumber"  :   "4",
+                    "amount"    :   1525.4772272575,
+                    "txnid"     :   "9E91D661-2DBA-BA32-76AA-B4D282CE79B2",
+                    "date"      :   "nowTimestamp()",
+                    "ecommerce" :   "0",
+                    "foreign"   :   "0",
+                    "fraud"     :   "0",
+                    "merchant"  :   "1520",
+                    "country"   :   "FR"
+                }],
+            "duration": 0
+        },
+        {
+            "config": [{
+                    "ccnumber"  :   "2",
+                    "amount"    :   1152.9833142027,
+                    "txnid"     :   "9B5ED86E-889D-5C8D-2510-0BF7B16594AE",
+                    "date"      :   "nowTimestamp()",
+                    "ecommerce" :   "0",
+                    "foreign"   :   "0",
+                    "fraud"     :   "0",
+                    "merchant"  :   "0763",
+                    "country"   :   "FR"
+                }],
+            "duration": 0
+        },
+        {
+            "config": [{
+                    "ccnumber"  :   "18",
+                    "amount"    :   1630.227262221,
+                    "txnid"     :   "FF6FEE75-5971-8913-6AF6-4DB071252DFB",
+                    "date"      :   "nowTimestamp()",
+                    "ecommerce" :   "0",
+                    "foreign"   :   "0",
+                    "fraud"     :   "0",
+                    "merchant"  :   "0742",
+                    "country"   :   "GR"
+                }],
+            "duration": 0
+        },
+        {
+            "config": [{
+                    "ccnumber"  :   "20",
+                    "amount"    :   1836.5099915441,
+                    "txnid"     :   "1C2B94E2-FF1B-5167-E6F4-E3C9620AB5EA",
+                    "date"      :   "nowTimestamp()",
+                    "ecommerce" :   "0",
+                    "foreign"   :   "0",
+                    "fraud"     :   "0",
+                    "merchant"  :   "1520",
+                    "country"   :   "LH"
+                }],
+            "duration": 0
+        }]
+}
